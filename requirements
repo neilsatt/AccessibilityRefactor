@@ -1,0 +1,16 @@
+REQUIREMENTS
+
+LANGUAGE
+Specify a language with the lang attribute on the <html> element on each .html page - DONE
+
+
+CONTRAST
+Ensure that the foreground text and background color of your site have sufficient contrast. 
+This will make your site more readable for everyone. 
+Contrast Ratio is one tool for checking the contrast of your colors for both standard vision and color deficient user.
+http://leaverou.github.io/contrast-ratio/
+
+
+DOCUMENT STRUCTURE
+Ensure heading elements i.e. <h1> are used to provide hierarchical structure to page content.
+Specifically look for the <p> tags with the class "heading" these should be changed to help assist screen readers.
