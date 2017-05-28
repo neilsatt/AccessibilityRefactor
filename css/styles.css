@@ -16,12 +16,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #6f0505;
+  
 }
 
 a:hover {
   color: #000;
     font-weight: bold;
+    text-decoration:underline;
 }
 
 /* Section Styles */
@@ -194,6 +196,20 @@ a.social:hover {
   clear: both;
 }
 
+    
+table {
+    margin-left: 10px;
+    border-spacing: 10px;
+}
+
+th, 
+td {
+    padding: 5px;
+}
+    
+    
+
+
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
 
@@ -243,4 +259,6 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+    
 }

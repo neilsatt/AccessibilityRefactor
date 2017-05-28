@@ -1,22 +1,44 @@
 REQUIREMENTS - 8
 
-LANGUAGE
-Specify a language with the lang attribute on the <html> element on each .html page - DONE
+LANGUAGE - DONE
+Specify a language with the lang attribute on the <html> element on each .html page
 
 
-CONTRAST
-Ensure that the foreground text and background color of your site have sufficient contrast - DONE
+CONTRAST - DONE
+Ensure that the foreground text and background color of your site have sufficient contrast 
 This will make your site more readable for everyone. 
 Contrast Ratio is one tool for checking the contrast of your colors for both standard vision and color deficient user.
 http://leaverou.github.io/contrast-ratio/
 
 
-DOCUMENT STRUCTURE
-Ensure heading elements i.e. <h1> are used to provide hierarchical structure to page content - DONE
+DOCUMENT STRUCTURE - DONE
+Ensure heading elements i.e. <h1> are used to provide hierarchical structure to page content 
 Specifically look for the <p> tags with the class "heading" these should be changed to help assist screen readers.
 
 
-IMAGES 
-Text in banner area is part of the image and will not be picked up by screen readers. Use the background image without text (concert02_no_text.jpg) and add text to the HTML to roughly match the layout.
-Add alt tags to images.
-Make sure that the decorative images in tour.html have an empty alt attribute i.e alt="".
+IMAGES - DONE (3 parts)
+Text in banner area is part of the image and will not be picked up by screen readers. Use the background image without text (concert02_no_text.jpg) and add text to the HTML to roughly match the layout  - DONE
+Add alt tags to images - DONE 
+Make sure that the decorative images in tour.html have an empty alt attribute i.e alt="" - DONE (guitar pick images)
+
+
+LINKS - DONE (3 parts)
+Ensure links are visually distinct - DONE
+Add hover state to links - DONE
+Ensure the image link icons in the footer have accompanying text describing the link. However we don’t want to see this text on the page. 
+Think about using alt text for the image - DONE 
+
+
+TABLE - DONE  (2 parts)
+Create a table for the tour dates information using the <td> element for table data cells and the <th> element for table header cells - DONE
+Ensure your table has a scope and caption element - DONE
+
+
+FORM - (5 parts)
+Ensure form elements have styled focus states using the :focus pseudo class - DONE
+Add associated labels for form controls - DONE 
+Make sure all labels have a ‘for’ value. Matching for and id values associate the label with the appropriate form control - DONE 
+Group form elements with a fieldset - DONE 
+Add a legend to describe the grouping - DONE 
+Ensure the select field options are in alphabetical order - DONE
+Make sure you can select options in the drop-down menu by typing from the keyboard - 

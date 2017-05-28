@@ -19,6 +19,33 @@ form {
 
 }
 
+textarea, 
+input[type=text],
+input[type=email]{
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+textarea:focus, 
+input[type=text]:focus,
+input[type=email]:focus
+{
+   border: 2px solid #6f0505;  
+   border-radius:3px;
+   -moz-border-radius:3px;
+   -webkit-border-radius:3px;
+}
+
+fieldset {
+    border: none;
+}
+
+.card fieldset {
+    text-align: left;
+}
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {

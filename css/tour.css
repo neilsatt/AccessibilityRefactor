@@ -14,3 +14,11 @@ pre {
   height: 0%;
   padding: 10px;
 }
+
+table {
+    border: 1px solid grey;
+}
+
+table caption {
+    font-weight: bold;
+}
