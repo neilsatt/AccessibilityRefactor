@@ -1,16 +1,22 @@
-REQUIREMENTS
+REQUIREMENTS - 8
 
 LANGUAGE
 Specify a language with the lang attribute on the <html> element on each .html page - DONE
 
 
 CONTRAST
-Ensure that the foreground text and background color of your site have sufficient contrast. 
+Ensure that the foreground text and background color of your site have sufficient contrast - DONE
 This will make your site more readable for everyone. 
 Contrast Ratio is one tool for checking the contrast of your colors for both standard vision and color deficient user.
 http://leaverou.github.io/contrast-ratio/
 
 
 DOCUMENT STRUCTURE
-Ensure heading elements i.e. <h1> are used to provide hierarchical structure to page content.
+Ensure heading elements i.e. <h1> are used to provide hierarchical structure to page content - DONE
 Specifically look for the <p> tags with the class "heading" these should be changed to help assist screen readers.
+
+
+IMAGES 
+Text in banner area is part of the image and will not be picked up by screen readers. Use the background image without text (concert02_no_text.jpg) and add text to the HTML to roughly match the layout.
+Add alt tags to images.
+Make sure that the decorative images in tour.html have an empty alt attribute i.e alt="".
