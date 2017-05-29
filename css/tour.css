@@ -11,7 +11,7 @@ pre {
 
 .pick{
   width: 40px;
-  height: 0%;
+  height: 40px; /* Updated due to bug in Firefox (the picks weren't showing up). This was happening in the original Treehouse files as well */
   padding: 10px;
 }
 

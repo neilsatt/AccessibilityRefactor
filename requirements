@@ -25,8 +25,8 @@ Make sure that the decorative images in tour.html have an empty alt attribute i.
 LINKS - DONE (3 parts)
 Ensure links are visually distinct - DONE
 Add hover state to links - DONE
-Ensure the image link icons in the footer have accompanying text describing the link. However we don’t want to see this text on the page. 
-Think about using alt text for the image - DONE 
+Ensure the image link icons in the footer have accompanying text describing the link. 
+However we don’t want to see this text on the page. Think about using alt text for the image - DONE 
 
 
 TABLE - DONE  (2 parts)
@@ -34,11 +34,35 @@ Create a table for the tour dates information using the <td> element for table d
 Ensure your table has a scope and caption element - DONE
 
 
-FORM - (5 parts)
+FORM - DONE (5 parts) 
 Ensure form elements have styled focus states using the :focus pseudo class - DONE
 Add associated labels for form controls - DONE 
 Make sure all labels have a ‘for’ value. Matching for and id values associate the label with the appropriate form control - DONE 
 Group form elements with a fieldset - DONE 
 Add a legend to describe the grouping - DONE 
 Ensure the select field options are in alphabetical order - DONE
-Make sure you can select options in the drop-down menu by typing from the keyboard - 
+Make sure you can select options in the drop-down menu by typing from the keyboard - Works with TAB, ENTER and UP/DOWN keys
+
+
+CHECKING YOUR CODE:
+Check Fangs extension for Firefox - DONE 
+You can also copy and paste your HTML into the Accessibility Validator - DONE (index.html, survey.html, and tour.html passed)
+You will also need to check your code against the Accessibility Checklist (see the Project Resources section for link) 
+Check in Firefox, Edge, and Chrome - DONE 
+
+
+Extra Credit: 
+
+Add in aria landmark roles attributes to sections of the page.
+You will need to add in 3 per page, using the most appropriate role value for the content of the container.
+For example, the footer section would look like:<footer role="contentinfo">
+We have not covered Aria Landmark roles. However this is a great chance to flex your Google searching skills.
+We have included links in the Project Resources to get you started.
+
+
+Use aria-describedby to add a description of what the submit form button does when clicked and to provide more information about parts of the form. For example:
+
+ <label for="password">Choose a password</label>
+    <input type="password" id="password" aria-describedby="hint" ...>
+
+    <p id="hint">Your password must be at least 10 characters in length. It must contain a mixture of upper and lower case letters, numbers and punctuation marks.</p>
