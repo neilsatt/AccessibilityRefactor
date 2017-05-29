@@ -44,25 +44,14 @@ Ensure the select field options are in alphabetical order - DONE
 Make sure you can select options in the drop-down menu by typing from the keyboard - Works with TAB, ENTER and UP/DOWN keys
 
 
-CHECKING YOUR CODE:
+CHECKING YOUR CODE - DONE (4 parts) 
 Check Fangs extension for Firefox - DONE 
 You can also copy and paste your HTML into the Accessibility Validator - DONE (index.html, survey.html, and tour.html passed)
-You will also need to check your code against the Accessibility Checklist (see the Project Resources section for link) 
+You will also need to check your code against the Accessibility Checklist (see the Project Resources section for link) - DONE 
 Check in Firefox, Edge, and Chrome - DONE 
 
 
-Extra Credit: 
+EXTRA CREDIT: 
+Add in aria landmark roles attributes to sections of the page. You will need to add in 3 per page - DONE
 
-Add in aria landmark roles attributes to sections of the page.
-You will need to add in 3 per page, using the most appropriate role value for the content of the container.
-For example, the footer section would look like:<footer role="contentinfo">
-We have not covered Aria Landmark roles. However this is a great chance to flex your Google searching skills.
-We have included links in the Project Resources to get you started.
-
-
-Use aria-describedby to add a description of what the submit form button does when clicked and to provide more information about parts of the form. For example:
-
- <label for="password">Choose a password</label>
-    <input type="password" id="password" aria-describedby="hint" ...>
-
-    <p id="hint">Your password must be at least 10 characters in length. It must contain a mixture of upper and lower case letters, numbers and punctuation marks.</p>
+Use aria-describedby to add a description of what the submit form button does when clicked and to provide more information about parts of the form - DONE
